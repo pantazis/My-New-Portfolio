@@ -1,4 +1,17 @@
 /* app css stylesheet */
+.container-fluid {
+	background-color:#123456;
+}
+.fluid {
+	margin-top:50px;
+}
+
+
+.fluid2 {
+	background-color:#654321;
+}
+
+
 
 
 
