@@ -1,0 +1,88 @@
+body, .onepage-wrapper, html {
+    display: block;
+    height: 100%;
+    padding: 0;
+    position: static;
+    width: 100%;
+	
+}
+body, html {
+    margin: 0;
+    overflow: hidden;
+    transition: opacity 400ms ease 0s;
+
+}
+
+
+.wrapper {
+    height: 100% !important;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.onepage-pagination {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    z-index: 5;
+}
+
+.onepage-pagination li {
+    padding: 0;
+    text-align: center;
+}
+.main {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+.main section {
+    overflow: hidden;
+}
+.main section.page1 {
+    background: rgb(230, 217, 200)  scroll 0 0;
+}
+
+.main section.page2 {
+    background: #555557  scroll ;
+}
+.main section.page3 {
+    background: #123456  scroll ;
+}
+.main section.page3 {
+    background: #654321  scroll ;
+}
+.onepage-wrapper .section {
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+.onepage-pagination li a {
+    display: block;
+    height: 4px;
+    padding: 10px;
+    width: 4px;
+}
+
+
+.onepage-pagination li a.active::before {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid black;
+    height: 10px;
+    left: 8px;
+    margin-top: -4px;
+    width: 10px;
+}
+.onepage-pagination li a::before {
+    background: rgba(0, 0, 0, 0.85) none repeat scroll 0 0;
+    border-radius: 10px;
+    content: "";
+    height: 4px;
+    position: absolute;
+    width: 4px;
+}
