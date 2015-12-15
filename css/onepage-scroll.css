@@ -86,3 +86,33 @@ a {
     position: absolute;
     width: 4px;
 }
+ .container-fluid{
+padding:20px;
+height:94.5% ;
+height:calc(100% - 50px);
+margin-top:50px;
+
+
+} 
+.imgcon{
+	height:33.3333%;
+	padding:15px;
+	
+	
+	}
+.galleryImg {height:100px;
+width:100% !important;
+background-color:#123456;
+
+
+}
+.item {
+    padding-right: 0;
+}
+.thumb {
+    margin: 0 20px;
+}
+.owl-dots {
+    float: left;
+    margin-top: 0;
+}
