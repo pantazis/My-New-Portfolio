@@ -317,8 +317,26 @@
 
 
             if (settings.pagination == true) {
+			
+				switch(i + 1) {
+    case 1:
+       var name1 = "Home";
+        break;
+    case 2:
+        var name1 = "Graphic Design";
+        break;
+		  case 3:
+       var name1 = "Web Design";
+        break;
+    case 4:
+        var name1 = "About Me";
+        break;
+   
+} ;
                 paginationList += "<li><a data-index='" + (i + 1) + "' href='#" + (i + 1) + "'></a></li>";
-                paginationList3 += "<li><a data-index='" + (i + 1) + "' href='#" + (i + 1) + "'>asasasa</a></li>";
+                paginationList3 += "<li><a data-index='" + (i + 1) + "' href='#" + (i + 1) + "'>"+ name1 +"</a></li>";
+			
+				
 
 
 
