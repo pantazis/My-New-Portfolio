@@ -116,9 +116,7 @@ background-color:#123456;
     float: left;
     margin-top: 0;
 }
-.galleryImg {
-    overflow: hidden;
-}
+
 
 
 .galleryImg {
@@ -126,7 +124,38 @@ background-color:#123456;
 	-webkit-transform: perspective(400px) rotateY(0deg);
 	width:90%;
 	filter: grayscale(40%);
+	background-image:url(../img/Graphic-Design/01.jpg);
+	background-size:cover;
 }
+.img1{background-image:url(../img/Graphic-Design/01.jpg);}
+.img2{background-image:url(../img/Graphic-Design/02.jpg);}
+.img3{background-image:url(../img/Graphic-Design/03.jpg);}
+.img4{background-image:url(../img/Graphic-Design/04.jpg);}
+.img5{background-image:url(../img/Graphic-Design/05.jpg);}
+.img6{background-image:url(../img/Graphic-Design/06.jpg);}
+.img7{background-image:url(../img/Graphic-Design/07.jpg);}
+.img8{background-image:url(../img/Graphic-Design/08.jpg);}
+.img9{background-image:url(../img/Graphic-Design/09.jpg);}
+.img10{background-image:url(../img/Graphic-Design/10.jpg);}
+.img11{background-image:url(../img/Graphic-Design/11.jpg);}
+.img12{background-image:url(../img/Graphic-Design/12.jpg);}
+.img13{background-image:url(../img/Graphic-Design/13.jpg);}
+.img14{background-image:url(../img/Graphic-Design/14.jpg);}
+.img15{background-image:url(../img/Graphic-Design/15.jpg);}
+.img16{background-image:url(../img/Graphic-Design/16.jpg);}
+.img17{background-image:url(../img/Graphic-Design/17.jpg);}
+.img18{background-image:url(../img/Graphic-Design/18.jpg);}
+.img19{background-image:url(../img/Graphic-Design/19.jpg);}
+.img20{background-image:url(../img/Graphic-Design/20.jpg);}
+.img21{background-image:url(../img/Graphic-Design/21.jpg);}
+.img22{background-image:url(../img/Graphic-Design/22.jpg);}
+.img23{background-image:url(../img/Graphic-Design/23.jpg);}
+.img24{background-image:url(../img/Graphic-Design/24.jpg);}
+.img25{background-image:url(../img/Graphic-Design/25.jpg);}
+.img26{background-image:url(../img/Graphic-Design/26.jpg);}
+.img27{background-image:url(../img/Graphic-Design/27.jpg);}
+
+
 
 .galleryImg:hover {
 	animation-name: thumbTilt;
@@ -156,10 +185,12 @@ background-color:#123456;
 @-webkit-keyframes thumbTilt {
 	0% {
 		-webkit-transform: perspective(400px) rotateY(8deg) scale(1);
+		filter: grayscale(40%);
 	}
 	
 	100% {
-		-webkit-transform: perspective(400px) rotateY(0deg) scale(1.05);
+		-webkit-transform: perspective(400px) rotateY(50deg) scale(1.05);
+		filter: grayscale(0%);
 	}
 }
 
