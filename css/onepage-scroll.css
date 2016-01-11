@@ -42,7 +42,7 @@ body, html {
     overflow: hidden;
 }
 .main section.page1 {
-    
+    background: rgb(230, 217, 200)  scroll 0 0;
 }
 
 .main section.page2 {
@@ -282,27 +282,6 @@ background-color:#123456;
 		  display:block;
 		  }
 }
-
-
-.maxsize{ height:100%; 
-width:100%;
-position: absolute;
-z-index:2;
-
-}
-.effect{
- background-color: #758434;
-    bottom: -20%;
-    height: 50%;
-    left: -20%;
-    position: absolute;
-    width: 150%;
-    z-index: 0;
- -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg); 
-    transform: rotate(10deg);}
-	
-
  
 
 
