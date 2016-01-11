@@ -273,13 +273,11 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
                 margin: 20,
                 smartSpeed: 450,
                 loop: false,
-                dots: true,
+                dots: false,
                 dotsEach: 1,
                 nav: false,
                 responsive: {
-                     0: {items: 1},
-                    767: {items: 1},
-                    1000: {items:2}
+                    0: {items: 1},
                   
                    
                 }
