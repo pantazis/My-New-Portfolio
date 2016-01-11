@@ -27,7 +27,9 @@ body, html {
     right: 10px;
     top: 50%;
     z-index: 5;
+	
 }
+
 
 .onepage-pagination li {
     padding: 0;
@@ -54,6 +56,11 @@ body, html {
 .main section.page3 {
     background: #654321  scroll ;
 }
+
+.main section.page4 {
+    background: #d3d3d3  scroll ;
+}
+
 .onepage-wrapper .section {
     height: 100%;
     width: 100%;
@@ -263,3 +270,24 @@ background-color:#123456;
 		opacity:100;
 	}
 }
+
+
+@media screen and (min-width: 1000px){
+   .full{
+	   display:block;
+	   }
+	  .page4 .owl-carousel1{
+		  display:none;
+		  }
+}
+@media screen and (max-width: 999px){
+   .full{
+	   display:none;
+	   }
+	  .page4 .owl-carousel1{
+		  display:block;
+		  }
+}
+ 
+
+
