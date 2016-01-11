@@ -10,4 +10,15 @@ document.getElementById("item3").innerHTML = text3;
 console.log(document.getElementById("item1"));
 console.log(document.getElementById("item2"));
 console.log(document.getElementById("item3"));
+var page1 = document.querySelector(".page1");
+
+function resizepage1 (){
+
+
+ page1.style.width = window.innerWidth+"px";
+ page1.style.height = window.innerHeight+"px";
+};
+
+//resizepage1();
+//window.onresize = function(){ resizepage1();};
 
