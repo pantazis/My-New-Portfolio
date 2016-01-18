@@ -10,6 +10,9 @@ body, html {
     margin: 0;
     overflow: hidden;
     transition: opacity 400ms ease 0s;
+	font-family: "Oswald",sans-serif;
+    font-style: italic;
+	
 
 }
 
@@ -98,6 +101,8 @@ padding:20px;
 height:94.5% ;
 height:calc(100% - 50px);
 margin-top:50px;
+width:100%;
+display: flex;
 
 
 }
@@ -288,26 +293,138 @@ background-color:#123456;
 		  display:block;
 		  }
 }
-.maxsize{ height:100%; 
-width:100%;
-position: absolute;
-z-index:2;
+.maxsize{
+
+z-index:3;
+position:relative;
+
+
 
 }
 .effect{
- background-color: #758434;
+ background-color: #fff;
     bottom: -20%;
     height: 50%;
     left: -20%;
     position: absolute;
     width: 150%;
-    z-index: 0;
- -ms-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
     -webkit-transform: rotate(10deg); 
-    transform: rotate(10deg);}
+    transform: rotate(10deg);
+	z-index:1;}
+	.effect2{
+		
+	position:absolute;
+	z-index:0;
+	background-image:url(../images/view.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:120%;
+	height:120%;
+	left:-10%;
+	top:-10%;
+	
+	
+ }
+ #frontP1 {
+    bottom: 0;
+    padding: 20px;
+    position: absolute;
+}
+.socialMedia {
+    height: 17px;
+}
+.maxsize ul {
+list-style: outside none none;
+    margin: 0;
+    padding: 0;
+	
+	
+	}
+	#front-animetion > li {
+    text-align: center;
+	
+}
+	.box1{
+	 
+    display: table-cell;
+  vertical-align: middle;
+   border-radius: 5%;
+  
+	
+	
+	
+	}
 	
 
- 
+.box1:hover{
+
+
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+	transform: rotateX(180deg);
+	backface-visibility:hidden;
+	
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+  from { transform: rotateX(0deg);
+  display:block;}
+    to { transform: rotateX(180deg);
+	display:none;}	
+	}
+
+/* Standard syntax */
+@keyframes example {
+    from { transform: rotateX(0deg);}
+    to { transform: rotateX(180deg);}	
+}
+.box2 {
+	margin-left:-200%;
+	
+	}
+	.hover{
+		margin-left:0%;
+		
+	
+	  -webkit-animation-name: padding; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: padding;
+    animation-duration: 1s;
+	}
+	@-webkit-keyframes padding {
+    from {margin-left:-200%;}
+    to {margin-left:0%}	
+	}
+
+/* Standard syntax */
+@keyframes padding {
+    from {margin-left:-200%;}
+    to {margin-left:0%}	
+}
+.front{ margin: 30% auto;
+	}
+	
+	.asa {
+  display: table;
+  width: 10vw;
+  height: 10vw;
+  text-align: center;
+
+  margin: auto;
+}
+
+.color1{background-color:#b1d15c;}
+.color2{background-color:#d1675c;}
+
+
+	
+
+
+	    transform: rotateX(180deg);
  
 
 
