@@ -72,11 +72,17 @@ box2.onmouseover= function(){
 };
 
 
-function clickbbb(){
+function clicka(){
 	
 	var ab = document.querySelector(".one").childNodes[1].childNodes[0];
 ab.click()
 };
+function clickb(){
+	
+	var ab = document.querySelector(".one").childNodes[2].childNodes[0];
+ab.click()
+};
+
 
 
 

@@ -485,7 +485,7 @@
 
 
 }(window.jQuery);
-window.onload = function () {resizeImg ();
+/*window.onload = function () {resizeImg ();
 
      };
 window.onresize = function() {resizeImg ();
@@ -500,5 +500,5 @@ $( ".galleryImg" ).each(function(  ) {
   
   this.style.height= galleryH/3-50 + "px";
 });
-};
+};*/
 
