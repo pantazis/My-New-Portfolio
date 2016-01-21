@@ -29,13 +29,21 @@ window.onresize = function () {
 
 
 document.querySelector(".page1").addEventListener("mousemove", function (event) {
-    myFunction(event);
-});
-document.querySelector(".page1").addEventListener("load", function (event) {
+	window.eff = document.querySelector(".page1").childNodes[1]
+	
     myFunction(event);
 });
 
+document.querySelector(".page3").addEventListener("mousemove", function (event) {
+	window.eff = document.querySelector(".page3").childNodes[1]
+    myFunction(event);
+});
+	document.querySelector(".page3").childNodes[1]
+
 function myFunction(e) {
+
+	
+	
 
 
     var x = e.clientX;
@@ -47,8 +55,8 @@ function myFunction(e) {
     var muvex = (x / screenw) *100/10;
     var muvey = (y / screenh) * 100/10;
     
-    effect2.style.left = "-"+10 - muvex+ "%";
-    effect2.style.top = "-"+10 - muvey+ "%";
+    eff.style.left = "-"+10 - muvex+ "%";
+    eff.style.top = "-"+10 - muvey+ "%";
    
       
 

@@ -52,7 +52,7 @@ body, html {
 }
 
 .main section.page2 {
-    background: #555557  scroll ;
+    background: #534546  scroll ;
 }
 .main section.page3 {
     background: #123456  scroll ;
@@ -113,11 +113,7 @@ display: flex;
     
     
     }
-.galleryImg {
-	height:120px;
-	height:calc(33vh - 60px);
-width:100% !important;
-background-color:#123456;
+
 
 
 }
@@ -128,6 +124,10 @@ background-color:#123456;
 .item2 {
     
 	width: 30%;
+}
+.item3 {
+    
+	width: 100%;
 }
 .thumb {
     margin: 0 20px;
@@ -140,13 +140,142 @@ background-color:#123456;
 
 
 .galleryImg {
+	height:120px;
+	height:calc(33vh - 60px);
+width:100% !important;
+
 	transform: perspective(400px) rotateY(0deg);
 	-webkit-transform: perspective(400px) rotateY(0deg);
 	width:90%;
 	filter: grayscale(40%);
-	background-image:url(../img/Graphic-Design/01.jpg);
+
 	background-size:cover;
+	
 }
+
+ .galleryImg1{
+	 background: #226b6f url("../images/sahaja-yoga.png") no-repeat scroll center center / 80% auto;
+    width: 100%;
+	}
+	.galleryImg2{
+	background: #6f5b22 url("../images/ha.png") no-repeat scroll center center / 80% auto;
+	width:100%;
+	}
+	
+	.galleryImg3{
+	background: #6f2241  url("../images/mglogo.png" ) no-repeat scroll center center / 80% auto;
+	width:100%;
+	}
+	.galleryImg4{
+		background: transparent url("../images/sy.jpg") no-repeat scroll center center / contain ;
+	    width:100%;
+	}
+	.galleryImg5{
+		background: transparent url("../images/ha.jpg") no-repeat scroll center center / contain ;
+		width:100%;
+	}
+	.galleryImg6{
+		background: transparent url("../images/mg.jpg") no-repeat scroll center center / contain ;
+		width:100%;
+	}
+
+	.asd {
+
+    
+    height: calc(100% - 45px);
+	opacity:0;
+	animation-name: opacity;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	transition-timing-function: ease-in;
+
+	-webkit-animation-name: opacity;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	-webkit-transition-timing-function: ease-in;
+	  
+}
+.asd2 {
+
+   
+    height: calc(100% - 45px);
+	opacity:0;
+	animation-name: opacity2;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	transition-timing-function: ease-in;
+
+	-webkit-animation-name: opacity2;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	-webkit-transition-timing-function: ease-in;
+	
+	
+}
+@keyframes opacity {
+	0% {
+		opacity:0;
+		
+		
+	}
+	 
+	100% {
+		opacity:1;
+		
+	}
+}
+
+@-webkit-keyframes opacity {
+	0% {
+		opacity:0;
+		
+		
+	}
+	 
+	100% {
+		opacity:1;
+		
+	}
+}
+@keyframes opacity2 {
+	0% {
+		opacity:1;
+		width:100%
+		
+		
+	}
+	 99%{width:100%} 
+	100% {
+		opacity:0;
+		width:0%
+		
+		
+	}
+}
+
+@-webkit-keyframes opacity2 {
+	0% {
+		opacity:1;
+		width:100%;
+		height:100%
+		
+		
+		
+	}
+	 99%{
+	 width:100%;
+	 height:100%;}
+	100% {
+		opacity:0;
+		width:0%;
+		display:none;
+		
+	}
+}
+
+	
+	
+	
 .img1{background-image:url(../img/Graphic-Design/01.jpg);}
 .img2{background-image:url(../img/Graphic-Design/02.jpg);}
 .img3{background-image:url(../img/Graphic-Design/03.jpg);}
@@ -188,6 +317,7 @@ background-color:#123456;
 	-webkit-animation-fill-mode: both;
 	-webkit-transition-timing-function: ease-in;
 }
+
 
 @keyframes thumbTilt {
 	0% {
@@ -365,11 +495,11 @@ position:relative;
     float: left;
 }
 #categories .block.army > span {
-	background-color:#b1d15c;
+	background-color:#329193;
    
 }
 #categories .block.army.color2 > span {
-	background-color:#d1675c;
+	background-color:#933248;
 	
 	}
 
