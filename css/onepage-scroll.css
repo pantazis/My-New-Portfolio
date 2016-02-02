@@ -136,6 +136,12 @@ display: flex;
     float: left;
     margin-top: 0;
 }
+.textp {
+    margin: 15% 0;
+	color:#47003c;
+}
+
+
 
 
 
@@ -154,16 +160,18 @@ width:100% !important;
 }
 
  .galleryImg1{
-	 background: #226b6f url("../images/sahaja-yoga.png") no-repeat scroll center center / 80% auto;
+	 background: #226b6f url("../images/sahaja-yoga.png") no-repeat scroll center center / contain; 
     width: 100%;
+	
+	
 	}
 	.galleryImg2{
-	background: #6f5b22 url("../images/ha.png") no-repeat scroll center center / 80% auto;
+	background: #6f5b22 url("../images/ha.png") no-repeat scroll center center / contain;
 	width:100%;
 	}
 	
 	.galleryImg3{
-	background: #6f2241  url("../images/mglogo.png" ) no-repeat scroll center center / 80% auto;
+	background: #6f2241  url("../images/mglogo.png" ) no-repeat scroll center center / contain;
 	width:100%;
 	}
 	.galleryImg4{
@@ -175,7 +183,7 @@ width:100% !important;
 		width:100%;
 	}
 	.galleryImg6{
-		background: transparent url("../images/mg.jpg") no-repeat scroll center center / contain ;
+		background: transparent url("../images/mg.jpg") no-repeat scroll center center / contain;
 		width:100%;
 	}
 
@@ -395,6 +403,10 @@ width:100% !important;
 	-webkit-animation-fill-mode: both;
 	-webkit-transition-timing-function: ease-in;
 }
+.box2 {
+	margin-left:-200%;
+    color:#47003c;
+}
 
 @keyframes imgTransparency {
 	0% {
@@ -431,6 +443,24 @@ width:100% !important;
 		  display:block;
 		  }
 }
+@media screen and (max-width: 720px){
+	.item2 {
+    width: 100%;
+}
+.item3 {
+    display:none;
+}
+.box2{
+	font-size:5vh;
+	
+	}
+
+	
+	
+	}
+	
+	
+	
 .maxsize{
 
 z-index:3;
@@ -450,6 +480,7 @@ position:relative;
     -webkit-transform: rotate(10deg); 
     transform: rotate(10deg);
 	z-index:1;}
+	
 	.effect2{
 		
 	position:absolute;
@@ -461,6 +492,22 @@ position:relative;
 	height:120%;
 	left:-10%;
 	top:-10%;
+	
+	
+ }
+ .top{
+	background-color: #fff;
+    height: 150px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+	 
+	 }
+ 	.effectimg3{
+		
+	
+	background-image:url(../images/texturel.jpg);
+
 	
 	
  }
@@ -553,9 +600,9 @@ position:relative;
 #categories .block, #categories .flipper-front, #categories .flipper-back {
     border-radius: 100%;
     display: inline-block;
-    height: 192px;
+    height: 20vh;
     text-align: center;
-    width: 192px;
+    width: 20vh;
 	cursor: pointer;
 }
 #categories .flip-container {
@@ -585,10 +632,7 @@ position:relative;
 	
 }
 
-.box2 {
-	margin-left:-200%;
-	
-	}
+
 	.hover{
 		margin-left:0%;
 		
@@ -599,7 +643,7 @@ position:relative;
     animation-duration: 1s;
 	}
 	.block{
-		margin-left:calc(50% - 90.5px) 	
+		margin-left:calc(50% - 10vh);
 		
 		
 		}
@@ -630,7 +674,6 @@ position:relative;
     transform: rotate(359deg);
 }
 }
-
 
  
 
