@@ -38,6 +38,10 @@ document.querySelector(".page3").addEventListener("mousemove", function (event) 
 	window.eff = document.querySelector(".page3").childNodes[1]
     myFunction(event);
 });
+document.querySelector(".page4").addEventListener("mousemove", function (event) {
+	window.eff = document.querySelector(".page4").childNodes[1]
+    myFunction(event);
+});
 	document.querySelector(".page3").childNodes[1]
 
 function myFunction(e) {
