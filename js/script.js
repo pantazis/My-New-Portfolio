@@ -81,3 +81,9 @@ function addclassweb(event){
 	
 	
 	};
+
+	
+	function loading (){
+		document.getElementById("loading").style.display = "none";
+		
+		};

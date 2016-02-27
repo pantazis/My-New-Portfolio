@@ -15,6 +15,22 @@ body, html {
 	
 
 }
+#loading {
+    background-color: #51524d;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+
+
+}
+
+
+#load {
+    display: block;
+    margin: auto;
+}
 h1,h2,h3,h4{
 	font-weight:bold;}
 
@@ -406,7 +422,7 @@ width:100% !important;
 	-webkit-transition-timing-function: ease-in;
 }
 .box2 {
-	margin-left:-200%;
+	margin-left:-400%;
     color:#47003c;
 }
 
@@ -474,15 +490,17 @@ position:relative;
 
 }
 .effect{
- background-color: #fff;
-    bottom: -20%;
-    height: 35%;
-    left: -20%;
+ background-image:url(../images/lokso.svg) ;
+ background-size:100% 100%;
+ background-repeat:no-repeat;
+    bottom: 0;
+    height: 20%;
+	
+	
+  
     position: absolute;
-    width: 150%;
-    -ms-transform: rotate(10deg);
-    -webkit-transform: rotate(10deg); 
-    transform: rotate(10deg);
+    width: 100%;
+
 	z-index:1;}
 	
 	.effect2{
@@ -598,7 +616,7 @@ position:relative;
     font-size: 33px;
     margin-top: 16px;
 }
-#categories .block .title {
+ .block .title {
   display: block;
    
     
@@ -612,14 +630,31 @@ position:relative;
    
     width: 100%;
 }
-#categories .block .title2 {
+ .block .title2 {
 
 	background-image:url(../images/web-design.png) ;
 
 }
 #categories .flipper-back {
-    color: #fff;
-    font-size: 21px;
+   background-image:url(../images/webdesign.svg);
+     display: block;
+   
+    
+
+    height: 100%;
+	
+	background-position:center;
+	background-size:90%;
+	background-repeat:no-repeat;
+ 
+   
+    width: 100%;
+  
+}
+#categories .flipper-back2 {
+   background-image:url(../images/grapicdesign.svg);
+   
+  
 }
 #categories .flipper-back > span:first-child {
     margin-top: 42px;
