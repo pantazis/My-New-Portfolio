@@ -15,6 +15,8 @@ body, html {
 	
 
 }
+	
+	
 #loading {
     background-color: #51524d;
     display: flex;
@@ -25,6 +27,18 @@ body, html {
 
 
 }
+.loading {
+ 
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 11;
+
+
+}
+h2{text-align:center;}
+
 
 
 #load {
@@ -97,6 +111,92 @@ a {
     padding: 10px;
     width: 4px;
 }
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+/*------------------------------------------------------------------------------------------*/
+.div {overflow:hidden;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 2s;
+	height:200px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    from {height:0px;}
+    to {height:200px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {height:0px;}
+    to {height:200px;}
+}
+
+.div2 {overflow:hidden;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example2;
+    animation-duration: 2s;
+	height:0px;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example2 {
+    from {height:200px;}
+    to {height:0px;}
+}
+
+/* Standard syntax */
+@keyframes example2 {
+    from {height:200px;}
+    to {height:0px;}
+}
+/*------------------------------------------------------------------------------------------*/
+
+@media all and (min-width: 701px) {
+    .artcle{
+	width:33.3333%;
+	float:left;
+	
+	}
+	.about{ width:100%;display: flex;   margin:auto;}
+	.front{ margin:20% auto;}
+    }
+
+	
+
+	@media all and (min-width: 10px) and (max-width: 700px) {
+    .artcle {
+       	width:100%;
+		float:none;
+	
+    }
+	.about{ width:100%;display: block;  }
+	.front{ margin:0px; width:100%;}
+	.artcle h2 {
+	
+	color:#fff;
+	width:100%;
+	padding:10px 0;
+	}
+	#categories h2 {
+    font-size: 22px;
+}
+	#a{background-color:#125647;}
+	#b{background-color:#563412;}
+	#c{background-color:#124656;}
+	.hidep{height:0;
+	overflow:hidden;}
+}
 
 
 .onepage-pagination li a.active::before {
@@ -155,9 +255,17 @@ display: flex;
     margin-top: 0;
 }
 .textp {
-    margin: 15% 0;
+   
 	color:#47003c;
 }
+.kato{
+	height: 100px;
+	background-image: url('../images/lokso.svg');
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	
+	
+	}
 
 
 
@@ -517,6 +625,21 @@ position:relative;
 	
 	
  }
+ .effect3{
+	position:absolute;
+	z-index:0;
+	background-image:url(../images/texturel4.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:120%;
+	height:120%;
+	left:-10%;
+	top:-10%;
+	
+	
+	
+	
+	}
  .top{
 	background-color: #fff;
     height: 150px;
@@ -579,9 +702,9 @@ position:relative;
 .front ul{
 	list-style:none;
 	text-align:center;
-	
+
 	 margin:0;
-   padding: 10% 0 0;
+   padding: 0;
 	
 	
 	}
@@ -747,6 +870,11 @@ position:relative;
     transform: rotate(359deg);
 }
 }
+
+	
+
+
+
 
  
 
