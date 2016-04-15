@@ -27,9 +27,6 @@ function addClass (i) {
 
 
 
-var nav1 = document.getElementById("nav1")
-
-nav1.addEventListener("click", addClass,false );
 
 
 

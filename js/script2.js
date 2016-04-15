@@ -8,11 +8,11 @@ function isIE() {
 };
 
 /* cookie.JS
- ========================================================*/
+ ========================================================
 include('js/jquery.cookie.js');
 
 /* Easing library
- ========================================================*/
+ ========================================================
 include('js/jquery.easing.1.3.js');
 
 /* PointerEvents
@@ -84,7 +84,7 @@ include('js/jquery.easing.1.3.js');
 })(jQuery);
 
 /* RD Smoothscroll
-=============================================*/
+=============================================
 ;(function ($) {
     include('js/rd-smoothscroll.min.js');
 })(jQuery);
@@ -101,14 +101,14 @@ include('js/jquery.easing.1.3.js');
 
 
 /* Superfish menus
- ========================================================*/
+ ========================================================
 ;
 (function ($) {
     include('js/superfish.js');
 })(jQuery);
 
 /* Navbar
- ========================================================*/
+ ========================================================
 ;
 (function ($) {
     include('js/jquery.rd-navbar.js');
@@ -154,7 +154,7 @@ include('js/jquery.easing.1.3.js');
 })(jQuery);
 
 /* Mailform
-=============================================*/
+=============================================
 ;(function ($) {
     include('js/mailform/jquery.form.min.js');
     include('js/mailform/jquery.rd-mailform.min.c.js');
