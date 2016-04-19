@@ -94,6 +94,13 @@ var containerfrontH = window.innerHeight /1.4358+"px" ;
 document.getElementById("about").style.width = containerfrontW;
 document.getElementById("about").style.height = containerfrontH;
 }
+var about1 = document.getElementById("about").innerHTML;
+var about2 = document.getElementById("about2");
+about2.innerHTML = about1;
+var sreda = document.getElementsByClassName("hidep");
+sreda[0].className="arkouda";
+sreda[2].className="arkouda";
+sreda[3].className="arkouda";
 
 
 
@@ -174,6 +181,8 @@ function h2p (i){
 
 
 document.getElementById("about").addEventListener("click", h2p, false);
+
+
 
 
 

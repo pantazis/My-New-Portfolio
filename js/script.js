@@ -34,13 +34,15 @@ function addClass (i) {
 
 
 function addclassweb(event){
-	console.log(event.target.classList[1]);
+	
 	switch (event.target.classList[1]) {
     case "galleryImg1":
          window.getw = document.getElementById("web1");
 		 getw.style.display="block";
 		 document.getElementById("web2").style.display="none";
 		 document.getElementById("web3").style.display="none";
+		 
+		 
 		
         break;
     case "galleryImg2":
@@ -73,7 +75,7 @@ function addclassweb(event){
 	
 	getw.classList.add("asd2");
 	getw.classList.remove("asd");
-	console.log(getw);
+	
 	
 	
 	
