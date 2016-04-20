@@ -169,12 +169,15 @@ a {
 	
 	}
 	.about{ width:100%;display: none;   margin:auto;}
-	.front{ margin:20% auto;}
+	.front{ margin: auto;}
     }
 
 	
 
 	@media all and (min-width: 10px) and (max-width: 700px) {
+		.panta{
+			display:none;
+			}
 		
 	.about2{display:none;}	
     .artcle {
@@ -531,7 +534,8 @@ width:100% !important;
 	-webkit-transition-timing-function: ease-in;
 }
 .box2 {
-	margin-left:-400%;
+	margin-left:-800%;
+	
     color:#47003c;
 }
 
@@ -721,7 +725,7 @@ position:relative;
 
 #categories .flipper {
     border: 0 none;
-    float: left;
+   
 }
 #categories .block.army > span {
 	background-color:#329193;
@@ -841,11 +845,7 @@ position:relative;
     animation-name: padding;
     animation-duration: 1s;
 	}
-	.block{
-		margin-left:calc(50% - 10vh);
-		
-		
-		}
+	
 	@-webkit-keyframes padding {
     from {margin-left:-200%;}
     to {margin-left:0%}	
