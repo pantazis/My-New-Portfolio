@@ -656,7 +656,7 @@
         unbindEvents: function () {
             if (F.wrap && isQuery(F.wrap)) {
                 F.wrap.unbind('.fb');
-            } 
+            }
 
             D.unbind('.fb');
             W.unbind('.fb');
@@ -801,7 +801,7 @@
 
             // Convert margin and padding properties to array - top, right, bottom, left
             margin = coming.margin;
-            padding = coming.padding; 
+            padding = coming.padding;
 
             if ($.type(margin) === 'number') {
                 coming.margin = [$('.rd-mobilepanel').length? $('.rd-mobilepanel').outerHeight() + margin: margin, margin, margin, margin];
